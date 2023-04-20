@@ -26,6 +26,7 @@ bin/kafka-server-start.sh config/server.properties
 It is pointing to private server , change server.properties so that it can run in public IP 
 
 To do this , you can follow any of the 2 approaches shared belwo --
+*** VERY IMPORTANT STEP for server configuration , follow your Public IPv4 address***
 Do a "sudo nano config/server.properties" - change ADVERTISED_LISTENERS to public ip of the EC2 instance
 
 
