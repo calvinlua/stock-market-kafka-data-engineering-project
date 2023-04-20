@@ -30,6 +30,11 @@ To do this , you can follow any of the 2 approaches shared belwo --
 Do a "sudo nano config/server.properties" - change ADVERTISED_LISTENERS to public ip of the EC2 instance
 
 
+** UNTIL HERE , you should have 2 ssh terminal running. 
+1. Zookeeper server
+2. KAFKA Server
+**
+
 Create the topic:
 -----------------------------
 Duplicate the session & enter in a new console --
